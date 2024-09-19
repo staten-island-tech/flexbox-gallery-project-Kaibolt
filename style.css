@@ -24,6 +24,24 @@ html{
     background-color: rgb(77, 82, 23, .7);
     box-shadow: 10px -8px rgba(31, 33, 7, 0.8);
 }
+#anim4{
+    transition: all 1.5s;
+}
+#anim1:hover{
+    background-color:rgba(141, 150, 39, 0.7);
+    border: 4px solid black;
+    transition: 0.5s;}
+#anim2:hover{
+    box-shadow: 10px 8px rgba(31, 33, 7, 0.8);
+    transition: 0.5s;}
+#anim3:hover{
+    background-color:rgba(141, 150, 39, 0.7);
+    border: 4px solid black;  
+    box-shadow: 10px 8px rgba(31, 33, 7, 0.252);
+    transition: 0.3s;}
+#anim4:hover{
+    background-color: rgba(152, 42, 42, 0.533);
+}
 .container{
     display: flex;
     width: 60%;
