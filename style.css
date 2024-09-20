@@ -27,20 +27,59 @@ html{
 #anim4{
     transition: all 1.5s;
 }
-#anim1:hover{
+#he1:hover{
     background-color:rgba(141, 150, 39, 0.7);
     border: 4px solid black;
     transition: 0.5s;}
-#anim2:hover{
+#he2:hover{
     box-shadow: 10px 8px rgba(31, 33, 7, 0.8);
     transition: 0.5s;}
-#anim3:hover{
+#he3:hover{
     background-color:rgba(141, 150, 39, 0.7);
     border: 4px solid black;  
     box-shadow: 10px 8px rgba(31, 33, 7, 0.252);
     transition: 0.3s;}
-#anim4:hover{
-    background-color: rgba(195, 41, 41, 0.622);
+#he4:hover{
+    background-color: rgba(195, 41, 41, 0.622);}
+#he5:hover{
+    background-color: rgba(255, 255, 255, 0.297);
+    border: 10px solid rgba(141, 150, 39, 0.7);
+    box-shadow: 2px 2px rgba(31, 33, 7, 0);
+    transition: 3s;}
+.anim1{
+    height: 2rem;
+    width: 2rem;
+    animation: test 4s infinite;
+    position: absolute;
+}
+@keyframes test {
+    0%{
+        left: 0%;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    5%{
+        background-color: blue;
+    }
+    25%{
+        left: 25%;
+        background-color: red;
+    }
+    50%{
+        left: 50%;
+        background-color: green;
+    }
+    75%{
+        left: 75%;
+        background-color: blue;
+    }
+    95%{
+        background-color: red;
+    }
+
+    100%{
+        left: 100%;
+        background-color: rgba(255, 255, 255, 0);
+    }
 }
 .container{
     display: flex;
