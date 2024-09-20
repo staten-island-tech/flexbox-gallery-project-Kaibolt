@@ -32,20 +32,28 @@ html{
     border: 4px solid black;
     transition: 0.5s;}
 #he2:hover{
-    box-shadow: 10px 8px rgba(31, 33, 7, 0.8);
+    box-shadow: 20px 8px rgba(31, 33, 7, 0.8);
     transition: 0.5s;}
 #he3:hover{
-    background-color:rgba(141, 150, 39, 0.7);
+    background-color:rgba(108, 115, 23, 0.7);
     border: 4px solid black;  
-    box-shadow: 10px 8px rgba(31, 33, 7, 0.252);
-    transition: 0.3s;}
+    box-shadow: 15px 10px rgba(31, 33, 7, 0.252);
+    transition: 0.5s;}
 #he4:hover{
-    background-color: rgba(195, 41, 41, 0.622);}
+    background-color: rgba(228, 14, 14, 0.758);
+    transition: 3s;
+}
 #he5:hover{
     background-color: rgba(255, 255, 255, 0.297);
     border: 10px solid rgba(141, 150, 39, 0.7);
     box-shadow: 2px 2px rgba(31, 33, 7, 0);
     transition: 3s;}
+#he6:hover{
+    width: 35rem;
+    height: 40rem;
+    box-shadow: 20px -16px rgba(31, 33, 7, 0.8);
+    transition: all 2s;
+}
 .anim1{
     height: 2rem;
     width: 2rem;
@@ -56,9 +64,6 @@ html{
     0%{
         left: 0%;
         background-color: rgba(255, 255, 255, 0);
-    }
-    5%{
-        background-color: blue;
     }
     25%{
         left: 25%;
@@ -71,6 +76,12 @@ html{
     75%{
         left: 75%;
         background-color: blue;
+    }
+    90%{
+        background-color: blue;
+    }
+    92%{
+        background-color: rgb(255, 94, 0);
     }
     95%{
         background-color: red;
