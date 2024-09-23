@@ -118,6 +118,11 @@ html{
         width: 100%;
         margin: 0%;
     }
+    html{
+        background-image: url(img/USA.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 .card-img{
     width: 100%;
