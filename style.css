@@ -12,7 +12,7 @@ html{
     background-size: cover;
 }
 .card{
-    width: 30rem; /* Can change rows of cards when done right*/
+    width: 25rem; /* Can change rows of cards when done right*/
     height: 35rem;
     border: 2px solid black;
     border-radius: 3px;
@@ -49,10 +49,8 @@ html{
     box-shadow: 2px 2px rgba(31, 33, 7, 0);
     transition: 3s;}
 #he6:hover{
-    width: 35rem;
-    height: 40rem;
-    box-shadow: 20px -16px rgba(31, 33, 7, 0.8);
-    transition: all 2s;
+    animation: h6 5s ease;
+    width: 35rem; height: 40rem; box-shadow: 20px -16px rgba(255, 255, 255, 0);
 }
 .anim1{
     height: 2rem;
@@ -68,14 +66,17 @@ html{
     25%{
         left: 25%;
         background-color: red;
+        transform: scale(2);
     }
     50%{
         left: 50%;
         background-color: green;
+        transform: scale(0.5);
     }
     75%{
         left: 75%;
         background-color: blue;
+        transform: scale(2);
     }
     90%{
         background-color: blue;
@@ -90,7 +91,10 @@ html{
     100%{
         left: 100%;
         background-color: rgba(255, 255, 255, 0);
-    }
+    }}
+@keyframes h6 {
+    0%{width: 25rem; height: 35rem; box-shadow: 20px -16px rgba(31, 33, 7, 0.8);}
+    100%{width: 35rem; height: 40rem; box-shadow: 20px -16px rgba(255, 255, 255, 0);}
 }
 .container{
     display: flex;
@@ -104,7 +108,7 @@ html{
     background-color: rgba(16, 88, 74, 0.397);
 
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .anim1{
         display: none;
     }
