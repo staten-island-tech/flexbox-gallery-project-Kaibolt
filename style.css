@@ -12,7 +12,7 @@ html{
     background-size: cover;
 }
 .card{
-    width: 35rem; /* Can change rows of cards when done right*/
+    width: 30rem; /* Can change rows of cards when done right*/
     height: 35rem;
     border: 2px solid black;
     border-radius: 3px;
@@ -98,7 +98,7 @@ html{
 }
 .container{
     display: flex;
-    width: 60%;
+    width: 80%;
     margin: 2rem auto;
     flex-direction: row;
     align-items: center;
