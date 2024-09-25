@@ -12,7 +12,7 @@ html{
     background-size: cover;
 }
 .card{
-    width: 30rem; /* Can change rows of cards when done right*/
+    width: 32rem; /* Can change rows of cards when done right*/
     height: 35rem;
     border: 2px solid black;
     border-radius: 3px;
